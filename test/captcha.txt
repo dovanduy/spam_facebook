@@ -1,0 +1,12 @@
+
+echo curl_exec($ch);
+curl_setopt($ch, CURLOPT_POST,1);
+$fields["lsd"]="AVqFxcqE";
+$fields["charset_test"]="&#x20ac;,&#xb4;,&#x20ac;,&#xb4;,&#x6c34;,&#x414;,&#x404;";
+$fields["captcha_persist_data"]="AZmZTqqvYuE15xAvkcFq1Zh92PxmQ0pGaxxlIz7e2LuIpArlTWNd_kHlXRp5_lcIjJtXpzseU2Km_gIZYbjQ5oUHxlyT4LxY5jmlzJ9eytNKlUoZRWeiXQNhWGxYBUpJDG7HQUt_OK36XewD4mN502XHy9JF-PwIKfCGiCWqX98l5lXX9H3F3DLHs5TSoPEbruvysdcxvuDlZ6gEb2KpMTJRL52E60hmt6gSkm7Hu2GvpLUhcA5vOAbo8aWrezipu5MiUdU_alUjTYGLshisB_b5HUYB0x4GXOZoDb6SADoixPqXncnnV3rraIa0fNWpL5o-8EQXEQ4OJTM4l0ZVB7GcTsJWiTpupENVVTDaj3OwEK7EGb6cgu559sEO-bY4HUgIvK4LTttGMSj1CrCrGA9cbAlXWuhpAjognDJIsx0wuoBtFj7COq8TQpSlvZpt5BqK3mxuNXdjDXKxp8rqgFIxPFmB9mBHFORM19dA27r1ZrEkFpSif8lNbFiYMFFqmj5ieiKKUP3zJ3VODQpnqOqiUQxwQ-4Zgk_gr_dHbRmZNt5NP4vQ8_yRuo5dJ7O2wVPcU3zP0F6UC5Pkk07UtX0hdpt4cMIOa89lE8Lv5BjTAOqXBhESR2nX_ivC5A65QfYeFbZAjSPuGSyjxGCqz9q-g51tt35gDL_T-KolbBGilXht_Jxmpm1BivA9PW6ZMxVYC0siyma4A9UsRrmfsp28QLiMotnCdrC_rwxzauBMmEa-P4FMMoxBWl9uIHdRa7M2nA12Qa1buSUhF1w4rO3rDn9kkOInt-mregHMcKolLgrcO3lXnAXswX1Iu_CvBjG1ObgThd0PwRzZq0_I9UPPJqQpYxnuo5XPnseEgqAa0Ar0FdhWNgiKIZLOeeWHLpmM1cV9KvjtzXc8leIwDkQLjWoVUbvCnCtwbGVvjfXQk4el-XviNZtLF-l0ics_MQWG4dQUlhLCUMCNV-mSlctvK2-ZqC1pF8L8IkP8ExneGIQhZu0scDMrCuk4e6TIcEahU_pZK-jlioI0xwlvbkYQXEkzCa5Bf0VvZ5aYz1pJpFYTxKdLw1PyZ14ewrRrIellsQKtKJtqb6JUGNYZrDatBTHAOax6kCncYFtu-T1r6WoQVqPagO50xKuyZvRXaO_1D2bw52lWkGqdabC9LBwEeDW1tBXju8xegIvnVgp1rg";
+$fields["captcha_response"]="LGw7bM";
+$fields["_orig_post_vars"]="";
+$fields["captcha_attempt"]="1";
+$fields["captcha_submit_text"]="Submit";
+$fields["captcha_try_text"]="";
+curl_setopt($ch, CURLOPT_POSTFIELDS,http_build_query($fields));
